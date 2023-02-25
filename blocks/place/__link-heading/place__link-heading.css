@@ -1,0 +1,14 @@
+.place__link-heading {
+    font-family: "Inter", "Arial", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  .place__link-heading:hover {
+    opacity: 0.8;
+  }
