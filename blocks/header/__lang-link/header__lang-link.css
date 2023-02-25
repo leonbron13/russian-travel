@@ -7,9 +7,9 @@
     color: #ffffff;
     opacity: 1;
   }
-  .header__lang-link:first-of-type {
-    margin-right: 18px;
-  }
+  .header__lang-link:last-of-type {
+    margin-right: 0;
+}
   .header__lang-link:hover {
     opacity: 0.8;
   }
