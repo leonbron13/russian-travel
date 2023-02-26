@@ -8,8 +8,8 @@
     opacity: 1;
   }
   .header__lang-link:last-of-type {
-    margin-right: 0;
-}
+    margin-left: 18px;
+  }
   .header__lang-link:hover {
     opacity: 0.8;
   }
