@@ -4,7 +4,7 @@
     grid-gap: 16px;
     margin: 92px auto 92px auto;
     max-width: 1184px;
-    padding: 0 48px;
+    padding: 92px 48px;
     -webkit-transition: max-width 0.3s ease-in-out, grid-gap 0.3s ease-in-out;
     -o-transition: max-width 0.3s ease-in-out, grid-gap 0.3s ease-in-out;
     transition: max-width 0.3s ease-in-out, grid-gap 0.3s ease-in-out;
