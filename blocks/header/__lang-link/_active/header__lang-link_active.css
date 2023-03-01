@@ -1,0 +1,6 @@
+.header__lang-link_active {
+    text-decoration: none;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 0.75px;
+    text-align: right;
+  }
