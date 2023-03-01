@@ -1,0 +1,29 @@
+.footer {
+  width: calc(100% - 48px * 2);
+  margin: 92px auto 24px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    width: calc(100% - 24px * 2);
+    margin: 92px 57px 92px 52px ;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    width: calc(100% - 16px * 2);
+    margin: 88px 26px 12px 24px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .footer {
+    width: calc(100% - 16px * 2);
+    margin-top: 64px;
+    margin-left: 16px;
+    flex-direction: column;
+  }
+}

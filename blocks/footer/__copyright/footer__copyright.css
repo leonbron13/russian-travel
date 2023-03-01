@@ -1,0 +1,41 @@
+.footer__copyright {
+    font-family: "Inter", "Arial", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: right;
+    color: white;
+    margin: 0;
+  }
+  .intro__title__br{
+    display: none;
+  }
+  @media screen and (max-width: 1024px) {
+    .footer__copyright{
+      line-height: 14px;
+      margin-right: 50px;
+      margin-top: 2px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .footer__copyright{
+      line-height: 14px;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: right;
+      margin-right: 15px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .footer__copyright{
+      display: row;
+      font-size: 14px;
+      line-height: 14px;
+      text-align: left;
+      margin-top: 15px;
+    }
+    .intro__title__br{
+      display: block;
+    }
+  }
